@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "@symfony/webpack-encore": "^0.31.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "9.0.1",
+    "webpack-notifier": "^1.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.2",
+    "core-js": "^3.6.5",
+    "font-awesome": "^4.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-pro-sidebar": "^0.4.4",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5"
+  }
+}

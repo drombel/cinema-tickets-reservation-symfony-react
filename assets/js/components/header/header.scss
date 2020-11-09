@@ -1,0 +1,22 @@
+header {
+	box-shadow: 0 0 10px #222;
+}
+
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.pro-sidebar .pro-menu {
+    a{
+		color: $highlight-color;
+
+		&:before{
+			transition: .3s all;
+			z-index: -1;
+		}
+
+		&.active{
+			&:before{
+				background: $icon-bg-color;
+			}
+		}
+	}
+}
